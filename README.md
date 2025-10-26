@@ -91,14 +91,6 @@ During training:
 **Human Evaluation:**
 Manual rating for **Fluency**, **Relevance**, and **Adequacy** on a 1–5 scale.
 
-Example qualitative result:
-
-| Input (Urdu)      | Model Output             | Reference                  |
-| ----------------- | ------------------------ | -------------------------- |
-| آپ کا کیا حال ہے؟ | میں ٹھیک ہوں، آپ سنائیں؟ | میں ٹھیک ہوں، آپ کیسے ہیں؟ |
-
----
-
 ### 💻 Features
 
 * Urdu text input box (right-to-left)

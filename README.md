@@ -71,12 +71,6 @@ A **Streamlit** (or **Gradio**) interface allows users to interact with the chat
 
 ## 🏋️ Training
 
-Run the following command:
-
-```bash
-python src/train.py --epochs 25 --batch_size 64 --lr 3e-4
-````
-
 During training:
 
 * Teacher forcing is used.
@@ -86,12 +80,6 @@ During training:
 ---
 
 ## 📈 Evaluation
-
-Run:
-
-```bash
-python src/evaluate.py
-```
 
 **Metrics:**
 
@@ -111,20 +99,9 @@ Example qualitative result:
 
 ---
 
-## 💬 Chat Interface
-
-### ▶️ Streamlit App
-
-Run the Streamlit chatbot:
-
-```bash
-streamlit run app/streamlit_app.py
-```
-
 ### 💻 Features
 
 * Urdu text input box (right-to-left)
-* Chat history display
 * Choice of decoding method:
 
   * Greedy decoding
@@ -179,16 +156,6 @@ A detailed write-up covering:
 | --------- | -------- |
 | Student 1 | 22F-3876 |
 | Student 2 | 22F-3350 |
-
----
-
-## 🛠️ Requirements
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
